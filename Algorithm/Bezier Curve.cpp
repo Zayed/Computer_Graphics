@@ -22,7 +22,7 @@ void DrawDot(double x, double y)
 
 
 
-/// Draw Linear Beizier Curve
+/// Draw Linear Bezier Curve
 /// Formula : B(t) = p1 + t * (p2 - p1) = (1 - t) * p1 + t * p2
 void DrawLineBezierCurve(pdd p1, pdd p2)
 {
