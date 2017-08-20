@@ -197,7 +197,7 @@ int main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
 	glutInitWindowSize (800, 600);
 	glutInitWindowPosition (0, 0);
-	glutCreateWindow ("LINE CLIPPING - The Liang_Barsky Algorithm");
+	glutCreateWindow ("LINE CLIPPING - The Liang-Barsky Algorithm");
 	glutDisplayFunc(MyDisplay);
 	glutMouseFunc(Mouse);
 	MyInit ();
